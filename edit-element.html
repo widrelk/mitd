@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Палаточник мини</title>
+    <link rel="stylesheet" href="/css/bootstrap.css" />
+    <link rel="stylesheet/less" type="text/css" href="/css/styles.less" />
+</head>
+
+<body class="landing-page__body">
+    <div class="landing-page__background-image">
+        <div class="landing-page__header">
+            <h2>КупиПалатку.ру</h2>
+            <div class="d-none d-md-block">
+                <button type="button" class="btn btn-primary">Производители</button>
+                <button type="button" class="btn btn-primary">Виды путешествий</button>
+            </div>
+            <div class="dropdown d-sm-block d-md-none">
+                <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenu2"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Меню
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                    <li><button class="dropdown-item" type="button">Производители</button></li>
+                    <li><button class="dropdown-item" type="button">Виды путешествий</button></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container edit-element__container">
+            <form>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Минимальная температура</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Максимальная температура</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Разложенный размер</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Сложенный размер</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Назначение</label>
+                    <input type="text" class="form-control" id="campingType">
+                </div>
+                <div class="mb-3">
+                    <label for="manufacturer" class="form-label">Производитель</label>
+                    <input type="text" class="form-control" id="manufacturer">
+                </div>
+                <button type="submit" class="btn btn-primary">Сохранить</button>
+                <button type="submit" class="btn btn-secondary">Отменить изменения</button>
+                <button type="submit" class="btn btn-danger">Удалить элемент</button>
+            </form>
+        </div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.6.0/umd/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/less@4"></script>
+</body>
+
+</html>

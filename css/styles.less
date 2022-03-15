@@ -80,7 +80,7 @@ html, .landing-page__body {
         margin-right: 20px;
         margin-bottom: 10px;
         width: 30rem;
-        height: 15rem;
+        height: 14rem;
         display: flex;
         flex-direction: row;
     }
@@ -88,4 +88,60 @@ html, .landing-page__body {
 
 .landing-page__product-card-image {
     height: 14rem;
+}
+
+
+
+.product-page__container {
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+    
+    margin-top: 10px;
+}
+
+.product-page__product-image {
+    height: 350px;
+    width: 350px;
+}
+.product-page__product-info {
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
+    
+    .product-page__product-image {
+        margin-top: 20px;
+        height: 300px;
+        width: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    #product-page__images-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    .product-page__product-image {
+        margin-top: 20px;
+    }
+}
+
+.product-page__product-info--mini {
+    background-color: aliceblue;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.edit-element__container {
+    background-color: aliceblue;
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    width: 100%;
 }
